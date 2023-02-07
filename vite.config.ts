@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3001/',
+        target: 'https://get-cell-towers-extnzbvljq-nn.a.run.app/',
         changeOrigin: true,
         secure: false,
       }
